@@ -8,11 +8,7 @@ class TwitterMessage extends React.Component {
       text: ''
     };
   }
-  message = (event) => {
-    this.setState({
-      text: event.target.value
-    })
-  }
+
   decrement = (event) => {
     const newCount = this.state.count - 1
     this.setState({
